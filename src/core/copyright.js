@@ -28,7 +28,7 @@ export default class Copyright {
       <span>All rights reserved</span>
       ${addPipe(this.settings.pipeColor, this.settings.pipeOpacity, this.settings.pipeMargin)}
       <span>Built by</span>
-      <a href="https://www.modiphy.com" title="MODIPHY® DESIGN" style="display: inline-block; color: inherit;">${modiphyLogo(
+      <a href="https://www.modiphy.com" title="MODIPHY® DESIGN" style="display: inline-flex; color: inherit;">${modiphyLogo(
         this.settings.logoColor,
         this.settings.logoHeight,
         this.settings.logoMargin,
