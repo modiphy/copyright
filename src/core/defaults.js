@@ -30,7 +30,7 @@ export default {
    *
    * @type {String}
    */
-  logoMargin: '0.05em 0 0 0.3em',
+  logoMargin: '0 0 0 0.3em',
   /**
    * Should be any acceptable CSS color value. Hex, RGB, RGBA, HSL, HSLA, etc.
    * default is 'inherit' which will inherit the color of the parent element.
