@@ -1,9 +1,13 @@
-export default function modiphyLogo(color = 'currentColor') {
+export default function modiphyLogo(
+  color = 'currentColor',
+  height = '1.25em',
+  margin = '0.05em 0 0 0.3em',
+) {
   return `
     <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1527.01 373.27"
-    style="width:auto; height:1.25em;fill:${color};"
+    style="display: inline-block; width:auto; margin: ${margin};height:${height};fill:${color};"
   >
     <title>MODIPHY® DESIGN</title>
     <path d="m1502.08,230.03c5.49,0,10.61,2.11,14.41,5.92,3.81,3.83,5.91,9,5.9,14.57,0,11.56-8.99,20.61-20.49,20.61s-20.61-9.06-20.61-20.63c.01-11.48,9.14-20.47,20.78-20.47h0Zm0-4.62c-14.19,0-25.39,11-25.4,25.08,0,14.08,11.19,25.26,25.23,25.26h.04c14.04,0,25.07-11.16,25.07-25.23.01-14.07-11.03-25.1-24.93-25.11h0Z" />

@@ -18,6 +18,8 @@ export default class Copyright {
     this.currentYear = new Date().getFullYear()
     this.companyName = this.settings.companyName
     this.container.style.display = 'inline-flex'
+    this.container.style.alignItems = 'center'
+    this.container.style.flexWrap = 'wrap'
     this.container.style.color = this.settings.color
 
     this.container.innerHTML = `
@@ -26,8 +28,10 @@ export default class Copyright {
       <span>All rights reserved</span>
       ${addPipe(this.settings.pipeColor, this.settings.pipeOpacity, this.settings.pipeMargin)}
       <span>Built by</span>
-      <a href="https://www.modiphy.com" title="MODIPHY® DESIGN" style="display: inline-block; color: inherit; margin-left: 0.3em;">${modiphyLogo(
+      <a href="https://www.modiphy.com" title="MODIPHY® DESIGN" style="display: inline-block; color: inherit;">${modiphyLogo(
         this.settings.logoColor,
+        this.settings.logoHeight,
+        this.settings.logoMargin,
       )}</a>
     `
   }
