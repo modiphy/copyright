@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "@modiphy/modiphy-copyright",
+  "name": "@modiphy/copyright",
   "version": "0.0.1",
   "description": "Reusable copyright with year and Modiphy logo",
   "main": "dist/index.js",
@@ -13,9 +13,16 @@
       "prod": "npm run production",
       "production": "mix --production"
     },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modiphy/copyright.git"
+  },
   "keywords": [],
   "author": "Neil Dingeldein (https://github.com/ndingeldein)",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@babel/core": "^7.22.20",
     "@babel/eslint-parser": "^7.22.15",
