@@ -4,7 +4,7 @@
 <div id="modiphy-copyright">
 </div>
 
-<script src="https://cdn.jsdelivr.net/gh/modiphy/copyright@latest/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@modiphy/copyright@latest/dist/index.js"></script>
 <script>
  addCopyright('#modiphy-copyright',{
   companyName: 'Cancare, Inc.'
