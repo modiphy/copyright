@@ -1,7 +1,7 @@
 export default function modiphyLogo(
   color = 'currentColor',
   height = '1.25em',
-  margin = '0 0 0 0.3em',
+  margin = '0.25em 0 0 0.3em',
 ) {
   return `
     <svg
