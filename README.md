@@ -16,7 +16,7 @@
 ```html
 <script>
  addCopyright('#modiphy-copyright',{
-  companyName: 'Southease Community Health Systems',
+  companyName: 'Southeast Community Health Systems',
   color: '#ccc', // inherit
   logoColor: '#fff', // currentColor
   logoHeight: '2em', // 1.25em
