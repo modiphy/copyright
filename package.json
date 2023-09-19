@@ -1,18 +1,18 @@
 {
   "private": false,
   "name": "@modiphy/copyright",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Reusable copyright with year and Modiphy logo",
   "main": "dist/index.js",
   "scripts": {
-      "dev": "npm run development",
-      "development": "mix",
-      "watch": "mix watch",
-      "watch-poll": "mix watch -- --watch-options-poll=1000",
-      "hot": "mix watch --hot",
-      "prod": "npm run production",
-      "production": "mix --production"
-    },
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/modiphy/copyright.git"
