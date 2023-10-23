@@ -19,6 +19,7 @@
   companyName: 'Southeast Community Health Systems',
   color: '#ccc', // inherit
   logoColor: '#fff', // currentColor
+  logoHoverColor: '#f00', // currentColor
   logoHeight: '2em', // 1.25em
   logoMargin: '0.25em 0 0 0.3em', // '0.25em 0 0 0.3em',
   pipeColor: '#ff0', // inherit

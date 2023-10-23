@@ -28,11 +28,22 @@ export default class Copyright {
       <span>All rights reserved</span>
       ${addPipe(this.settings.pipeColor, this.settings.pipeOpacity, this.settings.pipeMargin)}
       <span>Built by</span>
-      <a href="https://www.modiphy.com" title="MODIPHY® DESIGN" style="color: inherit;">${modiphyLogo(
+      <a id="modiphy-copyright-logo" href="https://www.modiphy.com" title="MODIPHY® DESIGN" style="color: inherit;">${modiphyLogo(
         this.settings.logoColor,
         this.settings.logoHeight,
         this.settings.logoMargin,
       )}</a>
     `
+
+    const logoHoverCss = `#modiphy-copyright-logo:hover svg{ fill: ${this.settings.logoHoverColor} !important; }`
+    let style = document.createElement('style')
+
+    if (style.styleSheet) {
+      style.styleSheet.cssText = logoHoverCss
+    } else {
+      style.appendChild(document.createTextNode(logoHoverCss))
+    }
+
+    document.getElementsByTagName('head')[0].appendChild(style)
   }
 }

@@ -20,6 +20,13 @@ export default {
    */
   logoColor: 'currentColor',
   /**
+   * Should be any acceptable CSS color value. Hex, RGB, RGBA, HSL, HSLA, etc.
+   * default is 'currentColor' which will inherit the color of the parent element.
+   *
+   * @type {String}
+   */
+  logoHoverColor: 'currentColor',
+  /**
    * Should be any acceptable CSS height value.
    *
    * @type {String}
