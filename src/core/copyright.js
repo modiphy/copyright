@@ -20,6 +20,7 @@ export default class Copyright {
     this.container.style.display = 'inline-flex'
     this.container.style.alignItems = 'center'
     this.container.style.flexWrap = 'wrap'
+    this.container.style.justifyContent = 'center'
     this.container.style.color = this.settings.color
 
     this.container.innerHTML = `
