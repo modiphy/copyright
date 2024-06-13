@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@modiphy/copyright",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Reusable copyright with year and Modiphy logo",
   "main": "dist/index.js",
   "scripts": {
