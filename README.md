@@ -25,6 +25,7 @@
   pipeColor: '#ff0', // inherit
   pipeOpacity: 1, // 0.5
   pipeMargin: '0 1em', // 0 0.5em
+  hideBuiltBy: false, // false
  })
 </script>
 ```

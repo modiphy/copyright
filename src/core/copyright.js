@@ -31,14 +31,18 @@ export default class Copyright {
       <span>©${this.currentYear} ${this.companyName}</span>
       ${addPipe(this.settings.pipeColor, this.settings.pipeOpacity, this.settings.pipeMargin)}
       <span>All rights reserved</span>
+    `
+    if (!this.settings.hideBuiltBy) {
+      this.container.innerHTML += `
       ${addPipe(this.settings.pipeColor, this.settings.pipeOpacity, this.settings.pipeMargin)}
-      <span>Built by</span>
-      <a id="modiphy-copyright-logo" href="${this.logoLinkUrl}" title="MODIPHY® WEB DESIGN" style="color: inherit;"><span style="position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);white-space: nowrap;border-width: 0;">MODIPHY® WEB DESIGN</span>${modiphyLogo(
+        <span>Built by</span>
+        <a id="modiphy-copyright-logo" href="${this.logoLinkUrl}" title="MODIPHY® WEB DESIGN" style="color: inherit;"><span style="position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);white-space: nowrap;border-width: 0;">MODIPHY® WEB DESIGN</span>${modiphyLogo(
         this.settings.logoColor,
         this.settings.logoHeight,
         this.settings.logoMargin,
       )}</a>
-    `
+      `
+    }
 
     const logoHoverCss = `#modiphy-copyright-logo:hover svg{ fill: ${this.settings.logoHoverColor} !important; }`
     let style = document.createElement('style')
