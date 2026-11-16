@@ -13,6 +13,12 @@ export default {
    */
   companyName: 'Company Name, LLC',
   /**
+   * URL to link the logo to.
+   *
+   * @type {String}
+   */
+  logoUrl: 'https://www.modiphy.com',
+  /**
    * Should be any acceptable CSS color value. Hex, RGB, RGBA, HSL, HSLA, etc.
    * default is 'currentColor' which will inherit the color of the parent element.
    *

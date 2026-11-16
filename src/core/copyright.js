@@ -16,8 +16,7 @@ export default class Copyright {
     this.container = document.querySelector(this.selector)
     // get domain name from window.location.href
     this.domainName = window.location.href.split('/')[2]
-
-    this.logoLinkUrl = `https://www.modiphy.com?utm_campaign=copyright_footer&utm_content=${this.domainName}`
+    this.logoLinkUrl = `${this.settings.logoUrl}?utm_campaign=copyright_footer&utm_content=${this.domainName}`
 
     this.currentYear = new Date().getFullYear()
     this.companyName = this.settings.companyName
